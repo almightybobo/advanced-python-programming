@@ -1,1 +1,2 @@
-# empty
+class Weight(object):
+    pass
