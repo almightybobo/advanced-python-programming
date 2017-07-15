@@ -1,3 +1,6 @@
+import pytest
+
+
 def test_feet_to_kilometers():
     d = Distance(feet=25000)
 
