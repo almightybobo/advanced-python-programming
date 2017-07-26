@@ -8,13 +8,13 @@ List comprehensions are covered in [section 3.3](http://getpython3.com/diveintop
 
 ## More reading resources
 
-#### Functional Programming
+##### Functional Programming
 
 Map and filter are covered in [chapter 4](http://book.pythontips.com/en/latest/map_filter.html) and lambdas are covered in [chapter 17](http://book.pythontips.com/en/latest/lambdas.html) from [Intermediate Python](http://book.pythontips.com/en/latest/)
 
 Finally, if you're looking for a quick reference of recursion you can refer to the [functional programming chapter](http://anandology.com/python-practice-book/functional-programming.html) from the [Python Practice Book](http://anandology.com/python-practice-book/index.html)
 
-#### Revisiting collections
+##### Revisiting collections
 
 If you need to review concepts from collections, you can use any of the following resources:
 
