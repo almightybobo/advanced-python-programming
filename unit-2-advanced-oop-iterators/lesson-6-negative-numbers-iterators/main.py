@@ -1,0 +1,2 @@
+class NegativeNumbersIterator(object):
+    pass
