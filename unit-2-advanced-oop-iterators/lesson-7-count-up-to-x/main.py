@@ -1,0 +1,2 @@
+class CountUpToIterator(object):
+    pass
