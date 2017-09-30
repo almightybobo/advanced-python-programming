@@ -12,12 +12,12 @@ class Circle(Shape):
 
 
 class Rectangle(Shape):
-    def __init__(self, side1, side2):
-        self.side1 = side1
-        self.side2 = side2
+    def __init__(self, height, width):
+        self.height = height
+        self.width = width
 
     def area(self):
-        return self.side1 * self.side2
+        return self.height * self.width
 
 
 class Square(Rectangle):

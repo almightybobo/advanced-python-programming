@@ -8,7 +8,7 @@ Are created by passing `radius` in the constructor. The area of a circle is equa
 
 **Rectangles**
 
-They're created by passing `side1` and `side2` and area is equals to `side1 * side2`.
+They're created by passing `height` and `width` and area is equals to `height * width`.
 
 **Squares**
 
@@ -25,6 +25,6 @@ c.area()  # 314.0 (3.14 * 10 * 10)
 s = Square(side=4)
 s.area()  # 16 (4 * 4)
 
-r = Rectangle(side1=4, side2=3)
+r = Rectangle(height=4, width=3)
 r.area()  # 12 (4 * 3)
 ```
