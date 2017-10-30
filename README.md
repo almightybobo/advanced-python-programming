@@ -1,5 +1,4 @@
-![Travis status](https://api.travis-ci.org/rmotr-curriculum/advanced-python-programming.svg?branch=master)
-
+[![Build Status](https://travis-ci.org/rmotr-curriculum/advanced-python-programming.svg?branch=master)](https://travis-ci.org/rmotr-curriculum/advanced-python-programming)
 
 # Advanced Python Programming
 
