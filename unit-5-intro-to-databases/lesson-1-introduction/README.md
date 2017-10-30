@@ -45,3 +45,14 @@ for result in results:
 ```
 
 Both [Python 2](https://docs.python.org/2/library/sqlite3.html) and [Python 3](https://docs.python.org/3/library/sqlite3.html) support SQLite, so make sure you check their comprehensive docs.
+
+
+## Other resources
+
+Aside from [Intro to Relational Databases](https://www.udacity.com/course/intro-to-relational-databases--ud197) (the one recommended before) you can take a look at [Using Databases with Python](https://www.coursera.org/learn/python-databases) or [Database Management Essentials](https://www.coursera.org/learn/database-management).
+
+If you want to go a lot deeper, you can check any of the following FREE books:
+
+* [Database Fundamentals](https://www.dropbox.com/s/512ejdya893t1iz/Database_fundamentals.pdf?dl=0)
+* [Foundations of Databases](https://www.dropbox.com/s/agncyhie6uzocpl/all.pdf?dl=0)
+* [Readings in Database Systems](https://www.dropbox.com/s/l0d68ks1czl04f5/redbook-5th-edition.pdf?dl=0)
