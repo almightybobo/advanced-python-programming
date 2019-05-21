@@ -18,3 +18,9 @@ One final addition. The `subtract` method **must** be implemented using the `add
 ```python
 subtract = add(x, y * -1)
 ```
+
+# python @classmethod and @staticmethod
+- classmethod:  the class of the object instance is implicitly passed as the first argument instead of self 
+	( need **class** to be the first parameter )
+- staticmethod: neither self (the object instance) nor  cls (the class) is implicitly passed as the first argument. They behave like plain functions except that you can call them from an instance or the class
+	( real static, don't need self )
