@@ -6,13 +6,19 @@ class NumbersIterator(object):
         return self
 
     def __next__(self):
-        pass
+        number = self.next_number
+        self.next_number += 1
+        return number
 
     next = __next__
 
 
-# iterator = iter(NumbersIterator())
-#
-# print(next(iterator))
-# print(next(iterator))
-# print(next(iterator))
+if __name__ == '__main__':
+    iterator = iter(NumbersIterator())
+
+    print(next(iterator))
+    print(next(iterator))
+    print(next(iterator))
+    print(next(iterator))
+    print(next(iterator))
+    print(next(iterator))
