@@ -1,14 +1,11 @@
-def pretty_result(original_function):
-    pass
+def pretty_result(func):
+    def wrapper(a, b):
+        result = str(func(a, b))
+        return 'The result of the function {} is: {}'.format(func.__name__, result)
+    return wrapper
 
-# This is for your testing purposes
-# Uncomment and "Run Code":
+@pretty_result
+def add(x, y):
+    return x + y
 
-# ========================================
-# @pretty_result
-# def add(x, y):
-#     return x + y
-# print(add(2, 5))
-# ========================================
-
-# Do you see: "The result of the function 'add' is: 7" ??
+print(add(2, 5))
